@@ -1,0 +1,84 @@
+body {
+    background: #248ACE;
+    color:#FFDB75;
+}
+section {
+    padding:3em;
+    margin:2em;
+    background: #46ACDF;
+    overflow: hidden;
+    
+}
+table {
+    width: 50%;
+    margin:3em auto;   
+    border-collapse: collapse;
+}
+
+td,tr,th {
+    border: 2px solid #FFDB75;
+    padding:2em;    
+}
+
+#span1{
+    
+    float:left;
+    background: #ffee00;
+    color: blue;
+    padding:1em 1 4em;
+}
+
+#span2{
+    float:left;
+    background: #00eebb;
+    color: blue;
+    padding:1em 1em 15em;
+    
+}
+
+#span3{
+    float:right;
+    background: #bbee00;
+    color: blue;
+    padding:1em 1em 2em;
+}
+
+span{
+    width:20%
+}
+p{
+   text-align: justify;
+    border: 1px solid #eeff;
+    padding: 1em;
+    background-color:  #aaeeff;
+    color:black;  
+}
+#parrafo-flotante1 {
+    text-align: justify;
+    border: 1px solid #eeff;
+    padding: 1em;
+    background-color:  #aaeeff;
+    color:black;
+    overflow: hidden;
+}
+#parrafo-flotante2 {
+    text-align: justify;
+    border: 1px solid #eeff;
+    padding: 1em;
+    background-color:  #aaeeff;
+    color:black;
+    float: left;
+}
+
+.formulario {
+    margin:0;
+    padding:0;
+    background: #ffffff url(img/grid.png);
+}
+
+.notas {
+    clear:both;
+    background: crimson;
+    color:blanchedalmond;
+        
+}
