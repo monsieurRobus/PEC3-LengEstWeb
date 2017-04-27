@@ -1,6 +1,9 @@
 body {
     background: #248ACE;
     color:#FFDB75;
+    max-width:60%;
+    margin:auto;
+    
 }
 section {
     padding:3em;
@@ -9,9 +12,15 @@ section {
     overflow: hidden;
     
 }
+
+footer,header {
+    padding-top:2em;
+    background: #333399;
+}
+
 table {
     width: 50%;
-    margin:3em auto;   
+    margin:auto;   
     border-collapse: collapse;
 }
 
@@ -19,16 +28,71 @@ td,tr,th {
     border: 2px solid #FFDB75;
     padding:2em;    
 }
+fieldset {
+    width: 90%;
+    margin:auto;
+}
 
-#span1{
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+li {
+    padding:1.2em;
+    clear:both;
+}
+
+nav {
+    background: #00AAFF;
+}
+
+nav ul {
+    margin:4em 0 0 0;
+    text-align: center;
+}
+
+nav li {
+    display:inline;
+    margin:auto;
+    text-align: center;
+    padding: 0.1em 1em;
+
+}
+
+label {
+    display: block;
+    float:left;
+    clear:left;    
+    width:50%;
+    overflow: auto;    
+    text-align: right;
+    padding-right: 1em;
+}
+
+.titulo-formulario {
+    width:30%;
+    margin:1.5em;    
+    padding-left: 0;
+    clear:none;
+    float:none;
+}
+
+input {
+    height:1.75em;
+    line-height: 1;
+}
+
+.span1{
     
     float:left;
     background: #ffee00;
     color: blue;
-    padding:1em 1 4em;
+    padding:1em 1em 4em;
 }
 
-#span2{
+.span2{
     float:left;
     background: #00eebb;
     color: blue;
@@ -36,7 +100,7 @@ td,tr,th {
     
 }
 
-#span3{
+.span3{
     float:right;
     background: #bbee00;
     color: blue;
@@ -46,16 +110,16 @@ td,tr,th {
 span{
     width:20%
 }
-p{
+.explicacion{
    text-align: justify;
-    border: 1px solid #eeff;
+    border: 1px solid #00eeff;
     padding: 1em;
     background-color:  #aaeeff;
     color:black;  
 }
 #parrafo-flotante1 {
     text-align: justify;
-    border: 1px solid #eeff;
+    border: 1px solid #00eeff;
     padding: 1em;
     background-color:  #aaeeff;
     color:black;
@@ -63,7 +127,7 @@ p{
 }
 #parrafo-flotante2 {
     text-align: justify;
-    border: 1px solid #eeff;
+    border: 1px solid #00eeff;
     padding: 1em;
     background-color:  #aaeeff;
     color:black;
@@ -73,7 +137,7 @@ p{
 .formulario {
     margin:0;
     padding:0;
-    background: #ffffff url(img/grid.png);
+    background: url(img/grid.png) center no-repeat;
 }
 
 .notas {
@@ -81,4 +145,21 @@ p{
     background: crimson;
     color:blanchedalmond;
         
+}
+
+.col1 {
+    display:block;
+    width:35%;
+    float:left;
+}
+
+.col2 {
+    display:block;
+    width:35%;
+    float:right;
+    
+}
+
+footer {
+    clear:both;
 }
