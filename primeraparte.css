@@ -5,17 +5,18 @@ body {
     margin:auto;
     
 }
-section {
-    padding:3em;
-    margin:2em;
-    background: #46ACDF;
-    overflow: hidden;
-    
+
+
+article {
+    width:95%;
+    margin:auto;
 }
+
 
 footer,header {
     padding-top:2em;
     background: #333399;
+    text-align: center;
 }
 
 table {
@@ -147,19 +148,25 @@ span{
         
 }
 
-.col1 {
-    display:block;
-    width:35%;
-    float:left;
+h4 {
+    padding:2em;
 }
-
-.col2 {
-    display:block;
-    width:35%;
-    float:right;
-    
-}
-
 footer {
     clear:both;
+}
+
+.columnas {
+    clear:both;
+    padding:0;
+    margin: auto;
+}
+
+.col {
+    display:block;
+    float:left;
+    margin:1% 0 1% 1.6%;
+}
+
+.col2_de_4 {
+    width:47%;
 }
