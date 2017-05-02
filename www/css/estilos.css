@@ -1,0 +1,160 @@
+html {
+    background: #C6C9CA;
+}
+
+body {
+    width:80%;
+    margin:auto;
+    background: #FFFFFF;
+}
+
+header {
+    text-align: center;
+    margin:0em 0em 1em 0em;
+    padding: 3em 0 0;
+    background: #FFFFFF;
+    
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    clear:both;
+    background: #130068;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+
+
+header > nav {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    background: #130068;
+    color: #FFFFFF;
+    padding: 0.1em;
+    margin:1em 0;
+       
+}
+
+
+nav > ul {       
+   
+    padding: 0;
+    list-style-type:none;   
+
+}
+
+nav li {    
+    
+    display:inline;
+    margin: auto;
+	text-align: center;
+    padding: 0.1em 1em;
+    
+}
+
+section {
+    color: #1C1D6D;
+}
+
+section ul { 
+    
+    font-size: 1.52em;
+    list-style-type: none;
+    line-height:1.6em;
+    
+}
+
+section li {
+    padding:0.4em 0;
+}
+
+.seccion {
+    float:left;
+    width:33%;    
+    
+    
+}
+
+.seccion h2 {
+    border-bottom: #F672FF 2px solid;
+    font-weight: normal;
+    color: #130068;
+}
+
+.seccion p {
+    
+    margin: 0 1.5em 2em 3em;
+    font-size: 1.52em;
+    line-height: 1.3em;
+    
+}
+
+.sc-izq {
+    border-right: #1C1D6D 2px solid;
+    text-align: justify;
+}
+
+.sc-ctr {
+  
+    text-align: center;
+    
+     
+}
+
+.sc-der {
+    border-left:#1C1D6D 2px solid;
+    text-align: right;
+   
+}
+.sc-izq h2 {
+    font-size: 2.5em;
+    margin: 1.4em 0.8em 1em 1.8em;;
+    text-align: left;
+    
+    
+}
+
+.sc-ctr h2 {
+    font-size: 2.5em;
+    margin:1.4em;
+    text-align: center;
+}
+
+.sc-der h2 {
+    font-size: 2.5em;
+    margin:1.4em;
+    text-align: right;
+}
+
+.sc-der ul {
+    padding: 0 2em;
+}
+
+.pie-de-pagina-1, .nombre-autor {
+    font-size:1.3em;
+}
+
+.pie-de-pagina-2 {
+    display:block;   
+}
+
+.cuerpo-seccion {
+   display: flex;
+    padding:2.5em 0;
+}
+
+.activo {
+    
+    color: #82FFC7;
+    
+}
+
+a {
+    color: #F672FF;
+    text-decoration: none;
+}
