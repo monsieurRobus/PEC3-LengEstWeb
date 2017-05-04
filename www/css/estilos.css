@@ -10,7 +10,7 @@ body {
 
 header {
     text-align: center;
-    margin:0em 0em 1em 0em;
+    
     padding: 3em 0 0;
     background: #FFFFFF;
     
@@ -36,7 +36,7 @@ header > nav {
     background: #130068;
     color: #FFFFFF;
     padding: 0.1em;
-    margin:1em 0;
+    margin:1em 0 0 0;
        
 }
 
@@ -58,8 +58,11 @@ nav li {
 }
 
 section {
+    
     color: #1C1D6D;
 }
+
+
 
 section ul { 
     
@@ -99,11 +102,8 @@ section li {
     text-align: justify;
 }
 
-.sc-ctr {
-  
+.sc-ctr {  
     text-align: center;
-    
-     
 }
 
 .sc-der {
@@ -131,8 +131,12 @@ section li {
     text-align: right;
 }
 
+.sc-ctr ul {
+    padding: 0 0em ;
+}
+
 .sc-der ul {
-    padding: 0 2em;
+    padding: 0 2em ;
 }
 
 .pie-de-pagina-1, .nombre-autor {
@@ -145,7 +149,7 @@ section li {
 
 .cuerpo-seccion {
    display: flex;
-    padding:2.5em 0;
+    padding:2em 0;
 }
 
 .activo {
@@ -157,4 +161,150 @@ section li {
 a {
     color: #F672FF;
     text-decoration: none;
+}
+caption {
+    padding:2em 0 1em 0;
+    font-weight: bold;
+    font-size:1.5em;
+}
+table {
+    border: #FEB6B8 1px solid;
+    border-spacing: 0;
+    margin:0 auto 2em auto;
+    width:90%;
+    
+}
+th,td {
+    border: #FEB6B8 1px solid;
+    border-spacing: 0;
+    padding:0.5em;
+    text-align: left;
+    background: #C95357;
+    color: #FFFFFF;
+}
+tfoot {
+    border: #FEB6B8 2px solid;
+    border-spacing: 0;
+    font-style: italic;
+    
+}
+
+td {
+    color: #444444;
+}
+
+tfoot td {
+    background: #FFFFFF;
+    color: #000000;
+    padding:1em;
+    text-align: center;
+}
+
+
+fieldset ul {
+    margin:auto;
+    padding:0.8em;
+    font-size:1.1em;
+}
+
+fieldset fieldset {
+    margin:1em;
+    
+}
+
+.par {
+    background: #FFFFFF;
+}
+
+.impar {
+    background: #F4C3C4;
+}
+
+.precio {
+    padding:0;
+    font-weight: bold;
+    text-align: right;
+}
+form {
+
+    display: flex;
+    margin:auto;
+    padding:1em;
+}
+.float-form-izq
+{
+    float:left;
+    width: 50%;
+}
+
+.float-form-der
+{
+    float:right;
+    width: 50%;
+}
+
+
+.col1d4 {
+    width:25%;
+    float:left;
+}
+
+.col1d3 {
+    width:33%;
+    float:left;
+}
+
+.col2d4 {
+    width:50%;
+    float:left;
+}
+
+.col3d4 {
+    width:75%;
+    float:left;
+}
+
+.col1d5 {
+    width:20%;
+    float:left;
+}
+
+.col1d20 {
+    width:5%;
+    float:left;
+}
+
+
+.row {
+    display:flex;;
+    clear:both;
+    margin:auto;
+    padding:0;
+}
+
+.centrar {
+    margin:auto;
+    width:50%;
+}
+
+.form-interno {
+    width:80%;
+}
+
+.linea {
+    padding:0.5em;
+}
+
+.seccion-pedido {
+    width:90%;
+    margin:auto;
+}
+
+.enviar-form
+{
+    width:15%;
+    height:5%;
+    float:right;
+    margin:0 1.5em;
+        
 }
