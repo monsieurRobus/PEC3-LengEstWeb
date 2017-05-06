@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+       <meta charset="utf-8">
+        <title>Inventario de libros | Editorial UOC Media Publishing</title>
         <link href="css/estilos.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -16,21 +17,22 @@
             </nav>
         </header>
         <section>
-          
-          <table>
-             <caption>Libros de Editorial UOC</caption>
+          <h2>Libros de Editorial UOC</h2>
+          <table>             
               <thead>
-                  <th>Titulo</th>
-                  <th>Autor</th>
-                  <th>Colección</th>
-                  <th>Temática</th>
-                  <th>Idioma</th>
-                  <th>Formato</th>
-                  <th>Precio</th>                  
+                 <tr>
+                  <th scope="col">Titulo</th>
+                  <th scope="col">Autor</th>
+                  <th scope="col">Colección</th>
+                  <th scope="col">Temática</th>
+                  <th scope="col">Idioma</th>
+                  <th scope="col">Formato</th>
+                  <th scope="col">Precio</th>     
+                 </tr>                               
               </thead>
               <tbody>
                   <tr>
-                      <th>El mobile marketing y las apps</th>
+                      <th scope="row">El mobile marketing y las apps</th>
                       <td class="par">Adriá Montiel Vallvé</td>
                       <td class="par">Manuales</td>
                       <td class="par">Ciencia, Tecnología, Informática</td>
@@ -39,15 +41,14 @@
                       <td class="par precio">16€</td>                      
                   </tr>
                   <tr>
-                      <th rowspan="4">Comunicación de riesgo y estudio de caso</th>
-                      <td class="impar" rowspan="4">Encarnación Rodríguez Perea</td>
-                      <td class="impar" rowspan="4">Dircom</td>
-                      <td class="impar" rowspan="4">Ciencia, Tecnología, Informática</td>
-                      <td class="impar" rowspan="4">Español</td>              
-                  </tr>   
-                  <tr>
-                      <td class="impar">Papel</td>
-                      <td class="impar precio">30.50€</td>
+                      <th scope="row" rowspan="3">Comunicación de riesgo y estudio de caso</th>
+                      <td class="impar" rowspan="3">Encarnación Rodríguez Perea</td>
+                      <td class="impar" rowspan="3">Dircom</td>
+                      <td class="impar" rowspan="3">Ciencia, Tecnología, Informática</td>
+                      <td class="impar" rowspan="3">Español</td>              
+                  
+                      <td class="impar" rowspan="1">Papel</td>
+                      <td class="impar precio" rowspan="1">30.50€</td>
                   </tr>
                   <tr>
                       <td class="par">EPUB</td>
@@ -58,7 +59,7 @@
                       <td class="impar precio">30.50€</td>
                   </tr>                               
                   <tr>
-                      <th>Big Data</th>
+                      <th scope="row">Big Data</th>
                       <td class="par">Monserrat García-Alsina</td>
                       <td class="par">EPI</td>
                       <td class="par">Ciencia, Tecnología, Informática</td>
@@ -67,7 +68,7 @@
                       <td class="par precio">15€</td>          
                   </tr>
                   <tr>
-                      <th>Pantallas electorales</th>
+                      <th scope="row">Pantallas electorales</th>
                       <td class="impar">Guillermo López García</td>
                       <td class="impar">Manuales</td>
                       <td class="impar">Derecho y Ciencia Política</td>
@@ -76,7 +77,7 @@
                       <td class="impar precio">26€</td>                      
                   </tr>
                   <tr>
-                      <th>La comunicación corporativa</th> 
+                      <th scope="row">La comunicación corporativa</th> 
                       <td class="par">Jordi Morató Bullido</td>
                       <td class="par">Quiero Saber</td>
                       <td class="par">Comunicación y Sociología</td>
@@ -85,15 +86,13 @@
                       <td class="par precio">6.99€</td>                                           
                   </tr>
                   <tr>
-                      <th rowspan="4">De fora vindran</th>
-                      <td class="impar" rowspan="4">Aleix Ravelo Betancor</td>
-                      <td class="impar" rowspan="4">Novelette</td>
-                      <td class="impar" rowspan="4">Psicología y Educación</td>
-                      <td class="impar" rowspan="4">Catalán</td>                      
-                  </tr>
-                  <tr>
-                      <td class="impar">PDF</td>
-                      <td class="impar precio">12€</td>
+                      <th scope="row" rowspan="3">De fora vindran</th>
+                      <td class="impar" rowspan="3">Aleix Ravelo Betancor</td>
+                      <td class="impar" rowspan="3">Novelette</td>
+                      <td class="impar" rowspan="3">Psicología y Educación</td>
+                      <td class="impar" rowspan="3">Catalán</td>   
+                      <td class="impar" rowspan="1">PDF</td>
+                      <td class="impar precio" rowspan="1">12€</td>
                   </tr>
                   <tr>
                       <td class="par">EPUB</td>

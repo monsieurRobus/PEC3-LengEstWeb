@@ -2,7 +2,7 @@
 <html>
     <head>
        <meta charset="utf-8">
-        <title></title>
+        <title>Realizar pedido | Editorial UOC Media Publishing </title>
         <link href="css/estilos.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -425,23 +425,29 @@
                                 <option value="MC">Master Card</option>
                             </select>
                         </li>
-                    </ul>
-                
-                    <fieldset id="extra-form" >
-                       <ul>
-                           <li class="row linea">
-                           <label for="promo-code">Si tienes un código promocional, ¡introducelo aquí!</label>
-                           </li>
-                           <li class="row linea"><input class="centrar" type="text" name="promo-code" id="promo-code"></li>
-                           <li class="row linea"><label for="present">¿Deseas envolverlo para regalo?</label></li>
-                           <li class="row linea"><select class="centrar" name="present" id="present">
-                                    <option value="select" selected>- elija una opción -</option>
-                                    <option value="Y">SI</option>
-                                    <option value="N">No</option>
-                                </select></li>
-                       </ul>
+                    
+                        <li class="row linea">
+                        <fieldset class="row form-interno" id="extra-form" >
+                           <ul>
+                               <li class="row linea">
+                               <label for="promo-code">Si tienes un código promocional, ¡introducelo aquí!</label>
+                               </li>
+                               <li class="row linea"><input class="centrar" type="text" name="promo-code" id="promo-code"></li>
+                               <li class="row linea"><label for="present">¿Deseas envolverlo para regalo?</label></li>
+                               <li class="row linea"><select class="centrar" name="present" id="present">
+                                        <option value="select" selected>- elija una opción -</option>
+                                        <option value="Y">SI</option>
+                                        <option value="N">No</option>
+                                    </select></li>
+                           </ul>
                     </fieldset>
-                    <input class="enviar-form" type="submit" value="Enviar" />
+                    </li>
+                    
+                    <li class="row linea">
+                    <input  class="privacidad" type="checkbox" name="privacidad" value="pr" required> <label  for="pr">Acepto la política de privacidad</label></li>
+                    <input class="row enviar-form" type="submit" value="Enviar" />
+                    
+                    </ul>
                 </fieldset>
                 
             </form>
